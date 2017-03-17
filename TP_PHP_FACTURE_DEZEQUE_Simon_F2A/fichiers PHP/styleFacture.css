@@ -1,0 +1,46 @@
+html
+{
+	background-color:#566573;
+}
+
+
+h1
+{
+	text-align:center;
+	color:white;
+}
+
+a
+{
+	text-decoration:none;
+	text-align:right;
+	color:white;
+}
+a:hover
+{
+	font-size:15px;
+}
+
+li
+{
+	list-style-type:none;
+	display:inline;
+	padding:0 0.5em;
+}
+ul
+{
+	text-align:center;
+}
+
+div
+{
+	text-align:center;
+}
+.client
+{
+	display:inline;
+}
+p
+{
+	text-align:center;
+}

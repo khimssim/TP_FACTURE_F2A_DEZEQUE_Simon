@@ -1,0 +1,37 @@
+fichier read me 
+
+Le pseudo et le mot de passe pour se connecter :
+	pseudo: admin
+	mdp:1234
+	
+---------------------------------------------------------
+Le fichier comprend l'export de la  base de donnée mysql avec le dossier notepad++ des fichiers php 
+
+Le dossier php se compose de 6 fichiers:
+
+	1)Une page de connexion.
+	2) Une page facture (la page home).
+	3) Une page pour la gestions des clients.
+	4) Une page pour la gestions des produits. 
+	5) Une page d'affichage de la facture imprimable.
+	6) Une page de deconnexion.
+	
+-----------------------------------------------------------
+Fonctionnalités de chaque page
+
+	1) La page de connexion permet de se connecter avec des identifiants entrées dans la base, cette page est fonctionnelle,
+		cependant j'ai utilisé le hachage de mot de passe sha1 car en utilisant le password_hash, je n'arrivais plus à me loger, j'ai donc 
+		décidé de garder le hashage sha1, pour que le rendu soit fonctionnel.
+		
+	2) La page facture qui permet depuis un menu de naviguer entres les différentes pages, de gérer les clients, gérer les produits
+		et afficher la facture. Il y a aussi  un lien qui permet de se deconnecter. Cette page est fonctionnelle.
+	
+	3) La page des gestions de clients permet l'ajout des clients dans la base, cette partie est fonctionnelle, cependant je n'ai pas réussi à
+		faire la partie suppression des clients.
+	
+	4) La page gestion des produits permet l'ajout des produits mais ne permet pas de les supprimer.
+	
+	5) La page d'affichage de la facture m'affiche des erreurs que je n'arrive pas à enlever, cependant il affiche la facture .
+	
+	6) La page de deconnexion est fonctionnelle 
+		
